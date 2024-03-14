@@ -1,1 +1,12 @@
-# Big-Data-Project
+# Project Summary:
+
+The project aims to learn how to build recommender systems, which are widely used in today's world. The model design is a recommender system that will use two types of algorithms: a content-based algorithm and a collaborative-based algorithm. The dataset used in the project is “Korean Demographics 2010-2022” from Kaggle. The dataset is 103kB and has 10 characteristics, which includes Birth, Birth_rate, Death, Death_rate, Natural_growth, Growth_rate, Marriage, Marriage_rate, Divorce and Divorce_rate. 
+
+The research questions for this project are “Exploring how marriages and divorces are impacting birth rates in Korea” and “What role do declining birth rates and rising death rates play in the potential risk of population decline or extinction in South Korea.” To address these questions, the project will use two classes of models: a vector space model and a matrix factorization. 
+
+The content-based algorithm will recommend items based on their attributes and features. In the context of demographic data, the content-based algorithm will suggest demographic trends or patterns based on similarities between different demographic profiles. For example, it will recommend population trends similar to a given region or time period based on attributes such as birth rate, death rate, natural growth, etc.
+The collaborative-based algorithm will recommend items based on the preferences and behaviors of similar users. Applied to demographic data, this algorithm can suggest population trends or behaviors based on similarities between different demographic groups. For instance, it can recommend population trends for a particular age group or socioeconomic class based on similarities in demographic characteristics.
+In the project, both algorithms will be applied to the dataset and compared based on their accuracy and performance. The metrics used for comparison will include precision, recall, and F1 score.
+
+The implementation will be done in Python using the pandas and TensorFlow libraries. The pandas library for Python can be used to pre-process, clean, and manipulate the data in a dataset to build a recommender system by providing data structures and functions to handle and analyze the data. TensorFlow is an open-source library for machine learning that can be used to build a recommender system by training deep learning models on a dataset to make personalized recommendation
+
